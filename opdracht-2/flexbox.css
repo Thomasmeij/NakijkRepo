@@ -1,3 +1,13 @@
 /* ======================================================
    OEFENEN MET FLEXBOX
 ========================================================= */
+
+.one {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+
+}
+
+
+
