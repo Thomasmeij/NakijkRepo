@@ -3,14 +3,68 @@
 ========================================================= */
 
 
-div.one{
+.one {
     display: flex;
-    background-color: green;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: flex-end;
     align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+
+.two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-edhub {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left-two {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.three {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.left-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+}
+
+
+.four {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text], [type=password] {
+    width: 100%;
+}
+
+/*Opdracht 5 kom ik niet uit*/
+.five {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 
