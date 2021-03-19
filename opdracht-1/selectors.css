@@ -3,13 +3,13 @@
 ========================================================= */
 
 /* 1.1 Geef de 'img' tag in the header een ID en zet zijn breedte op 100% */
-#header-width {
+#header-image {
     width: 100%;
 }
 
 
 /* 1.2 Verander de kleur van alle list items in de unordered list naar hsl(110, 29%, 52%) */
-ul {
+ul li {
     color: hsl(110, 29%, 52%) ;
 }
 
@@ -26,7 +26,7 @@ ul {
     text-decoration: none;
     color: hsl(359, 79%, 56%);
 }
-#navtop a:visited{
+#navtop a:visited {
     text-decoration: none;
     color: hsl(359, 79%, 56%);
 }
@@ -40,7 +40,7 @@ ul {
     text-decoration: underline;
     color: hsl(208, 71%, 45%);
 }
-.links a:visited{
+.links a:visited {
     text-decoration: underline;
     color: hsl(207, 16%, 56%);
 }
@@ -52,12 +52,17 @@ ul {
 
 /* Verander de achtergrond van de SignUp button. Tip: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors  */
 
-/*input[submit="Signup"] {*/
+
+input[type="submit"] {
+    background-color: green;
+}
+
+    /*input[submit="Signup"] {*/
 /*    color: green;*/
 /*}*/
 /*deze begrijp ik niet*/
 
-#button-signup{
+#button-signup {
     background-color: hsl(318, 74%, 50%);
     color: hsl(100, 100%, 100%);
     border: 0;
