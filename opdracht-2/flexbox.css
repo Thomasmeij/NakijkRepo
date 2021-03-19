@@ -63,8 +63,16 @@ input[type=text], [type=password] {
 /*Opdracht 5 kom ik niet uit*/
 .five {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+article {
+    /* alle items groeien met evenveel fracties van de overgebleven beschikbare ruimte*/
+    flex-grow: 1;
+    /* item mag niet kleiner worden dan de basis*/
+    flex-shrink: 0;
+    flex-basis: 360px;
 }
 
 
